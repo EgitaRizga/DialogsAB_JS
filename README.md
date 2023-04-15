@@ -2,8 +2,19 @@
 JS (iesācējiem) kursa elektroniskā klade  
 Jauna rinda ar 2 atstarpēm
 # Virsraksts
+- veido
++ savu
+* sarakstu
+- jeb 
+  - arī apakšsarakstu  
+
+**Bold teksts**  
+_Italic teksts_  
+~~Neapareizi ierakstīts~~
 ## Apakšvirsraksts
 ### Apakš-apkšvirsraksts
-'#0969DA' **Bold teksts** _Italic teksts_ ~~NEapareizi ierakstīts~~   
 > Citējums  
+
+![Mācības](https://img1.spoki.lv/upload2/articles/78/782257/images/ATVIEGLO-SAVAS-MACIBAS-1.gif)  
+
 
