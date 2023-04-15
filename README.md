@@ -17,4 +17,7 @@ _Italic teksts_
 
 ![Mācības](https://img1.spoki.lv/upload2/articles/78/782257/images/ATVIEGLO-SAVAS-MACIBAS-1.gif)  
 
+_Izskatās labi_ 👀  
 
+Citāts[^1]
+[^1]:Citāta avots
