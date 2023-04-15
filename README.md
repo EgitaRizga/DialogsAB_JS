@@ -4,6 +4,6 @@ Jauna rinda ar 2 atstarpēm
 # Virsraksts
 ## Apakšvirsraksts
 ### Apakš-apkšvirsraksts
-**Bold teksts** _Italic teksts_ ~~NEapareizi ierakstīts~~   
-> Citējums
-'''Citējums'''
+'#0969DA' **Bold teksts** _Italic teksts_ ~~NEapareizi ierakstīts~~   
+> Citējums  
+
