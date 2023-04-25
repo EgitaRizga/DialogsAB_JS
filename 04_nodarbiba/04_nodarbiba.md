@@ -34,7 +34,7 @@ Ja ar mainīgo vēlas parādīt ciparus, tos neliek "", ja vēlas parādīt vār
 
 **vienā mainīgajā var iekļaut vairākus identifikatorus ar to vērtībām un joprojām tekstā parādīt tikai vienu no tiem**  
 
-_Ja mainīgajam netiek noteikta vērtība tas parādās kā 'undefined'  
+_Ja mainīgajam netiek noteikta vērtība tas parādās kā 'undefined'_  
 
 _Ja gala rezultātam formulā starp vērtībām tiek norādīts + tas nozīmē ka vārdi tiks noradīti kopīgi. Pašā formulā papildus ir jānorāda atstarpe iekšs "" savādāk vārdi būs saspiesti kopā_
 
