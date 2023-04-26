@@ -11,6 +11,8 @@ JS tiek norādīts <**script**>
 JS kodu var ievietot atsevišķā failā/mapē, bet tam ir jāatrodas zem vienotas failu grupas  
 Šai mapei nosaukuma beigās ir jābūt _.js_  
 
+_atsevišķajā failā nedrīkst izmantot <script>_
+
 Lai šo funkciju izmantotu galvenajā kodā ir jāliek atsauce <*script src="mapes nosaukums"*>  
 
 
@@ -39,4 +41,22 @@ _Ja mainīgajam netiek noteikta vērtība tas parādās kā 'undefined'_
 _Ja gala rezultātam formulā starp vērtībām tiek norādīts + tas nozīmē ka vārdi tiks noradīti kopīgi. Pašā formulā papildus ir jānorāda atstarpe iekšs "" savādāk vārdi būs saspiesti kopā_
 
 > Ja vērtībā ciparu raksta "" tad pārējie cipari aiz tā netiek uztverti kā cipari, bet ja pirmos ciparus neraksta "" un pēdējo raksta, tad pirmie cipari joprojām tiek par tādiem uzskatīti  
+
+### Mainīgo dažāda noteikšana
+
+Mainīgos kad tos apzīmē ar **let** un **const** var ietvert iekš {  } šādā gadījumā kods ārtpus šīm iekavām nevar atsaukties uz šo mainīgā vērtību  
+
+Kad tiek izmantots **var** kodā šo vērtību var noteikt savādāku ar vēl vienu **var** rindu ar tādu pašu nosaukumu bet citu vērtību  
+
+> Ja izmanto **let** un **const** šajā gadījumā nedrīkst noteikt mainīgajam citu vērtību ar to pašu nosaukumu pat ja izmanto citu mainīgā noteikšanas kodu
+
+_Ja vēlas izmantot **let** un **const** ar vienādu nosaukumu bet citām vērtībām to var darīt katru kodu iekļaujot {}  
+
+**var** vērtību var arī noteikt pirms un nākošajā rindā noteikt ka attiecīgais nosaukums ar tā vērtību ir mainīgais  
+
+_Šo nevar izmantot ar **let** un **const**_  
+
+**const** vislabāk ir izmantot ja zina ka mainīgajam nevajadzēs mainīt vērtību  
+
+> **const** vērtības ir iespējams mainīt un papildināt  
 
