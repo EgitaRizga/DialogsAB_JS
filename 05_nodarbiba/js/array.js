@@ -15,3 +15,32 @@ var coord = [
 ];
 console.log(coord[0]);
 console.log(coord[0][0]);
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.toString();
+
+//vērtības tiek atdalītas ar komatu
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.join(" * ");
+
+//starp vēsrtībām tiek ievietots norādītais simbols
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo1").innerHTML = fruits;
+fruits.pop();
+document.getElementById("demo2").innerHTML = fruits;
+
+//izņem ārā pēdējo vērtību un to nevar izmantot tālāk
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fruit = fruits.pop();
+
+//izņem pēdējo vēsrtību bet tā tiek paturēta atmiņā un var izmantot tālāk
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo1").innerHTML = fruits;
+fruits.push("Kiwi");
+document.getElementById("demo2").innerHTML = fruits;
+
+//pievieno vēsrtību beigās jauno vērtību (tas pats kas ar let kad iegaumē kad nē)
