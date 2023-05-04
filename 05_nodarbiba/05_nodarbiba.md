@@ -15,7 +15,17 @@ Dažādi veidi kā atspoguļot vērtības:
 - **const arr3 = arr1.concat(arr2);** apvieno eksistējošus masīvus jaunā (iepriekšējos joprojām var izmantot atsevišķi)
 - **splice(cipars, cipars, "vērtība");** pirmais cipars nosaka jaunās vērtības atrašanās vietu masīvā, otra cipars nosaka cik vērtības jānoņem pēc jaunās vērtības
 _var izmantot arī bez jaunas vērtības tādā gadījumā tiek veikta tikai noteikto vērtību izņemšana_
-- **const arr2 = arr1.slice(cipars);** izveido jaunu masīvu ņemot noteiktās vērtības no norādītā saraksta
+- **const arr2 = arr1.slice(cipars);** izveido jaunu masīvu ņemot noteiktās vērtības no norādītā saraksta  
+
+## Masīvu kārtošana  
+
+- **sort();** sakārto masīvu alfabētiskā secībā  
+- **sort(function(a, b){return a - b});** atspoguļo ciparus pareizā recībā
+- **reverse();** atspoguļo masīvu no otras puses  
+- **myArrayMax();** nosaka lielāko vērtību (cipariem)  
+> jāpapildina ar **function myArrayMax(arr) {return Math.max.aplly(null, arr);}** aiz komandas kas atspoguļo ID  
+- **myArrayMin();** darbojas tas pats proncips bet tikai parāda mazāko ciparu  
+- 
 
 ## Masīvu tipi
 
