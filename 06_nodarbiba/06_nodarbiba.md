@@ -16,3 +16,14 @@
 
 Izmanto lai noteiktu vērtību salīdzinātu ar visiem piedāvātajiem variantiem _(lai apstādinātu salīdzinšānu pie atbilstošā aiz katra liek **break;**)_  
 
+# Funkcijas
+
+**function name(parameter1, parameter2, parameter3){}**
+    Koda pieraksts  
+
+    Pats kods kuru vēlas lai funkcija izpilda tiek likts iekšs {}  
+
+    Funkcija tiek izpildīta tikai tad kad tiek nosūtīts pieprasījums
+
+> Pieprasījums var izpausties kā poga ko nospiest, kāds nosacījums vai pati funkcija no iekšienes dod uzdevumu  
+
