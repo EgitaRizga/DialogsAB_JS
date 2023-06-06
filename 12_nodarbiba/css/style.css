@@ -10,13 +10,13 @@ body {
   background-size: cover;
   background-position: center center;
   height: 100vh;
-  color: #fff;
+  color: #f8ec08a3;
   font-family: 'Lato', sans-serif;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  /*flex-direction: column;*/
+  align-items: left;
+  justify-content: left;
+  text-align: left;
   margin: 0;
   overflow: hidden;
 }
@@ -29,18 +29,18 @@ body::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(8, 5, 40, 0.5);
 }
 
 body * {
   z-index: 1;
 }
-
+/*
 h1 {
-  font-size: 60px;
+  font-size: 40px;
   margin: -80px 0 40px;
 }
-
+*/
 .year {
   font-size: 200px;
   z-index: -1;
@@ -52,7 +52,7 @@ h1 {
 }
 
 .countdown {
-  /* display: flex; */
+  display: flex; 
   display: none;
   transform: scale(2);
 }
@@ -60,8 +60,8 @@ h1 {
 .time {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+ /* align-items: left;
+  justify-content: center;*/
   margin: 15px;
 }
 
