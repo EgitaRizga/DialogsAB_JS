@@ -43,3 +43,9 @@ setTimeout(() => {
   
   // Run every second
   setInterval(updateCountUP, 1000);
+  
+  
+  function stopTimeUp() {
+    clearInterval(updateCountUP);
+  }
+ 
