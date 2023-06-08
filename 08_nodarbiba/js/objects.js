@@ -1,33 +1,41 @@
 const discrete_variable = 4;
-const array_example = ['a', 'b'];
-const function_example = function name_for_internal_use(x){return x*x;};
+const array_example = ["a", "b"];
+const function_example = function name_for_internal_use(x) {
+  return x * x;
+};
 
-
-// Create an object:
-const car = {type:"Fiat", model:"500", color:"white"};
-
-// Display some data from the object:
-document.getElementById("car_object").innerHTML = "The car type is " + car.model;
+const car = { type: "Fiat", model: "500", color: "white" };
 
 const person = {
-    firstName: "John",
-    lastName : "Doe",
-    id       : 5566,
-    age      : 50,
-    fullName : function() {
-      return this.firstName + " " + this.lastName;
-    }
-  };
- 
- // delete person.age;
-document.getElementById("calling").innerHTML = person.firstName + " is " + person.age + " years old.";
+  firstName: "John",
+  lastName: "Doe",
+  id: 5566,
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  },
+};
 
+var discrete_variable_new = discrete_variable;
+const array_example_new = array_example;
 
-  const array_example_new = array_example;
+const car_1 = car;
+car_1.type = "Seat";
+console.log(car_1.type);
+console.log(car.type);
 
-  for (let i=1; i < array_example.length; i++) console.log(array_example[i]);
+const person_1 = new Object();
 
-  for (array_element of array_example) console.log(array_element);
+for (let i=0; i < array_example.length; i++) console.log(array_example[i]);
 
-  
+for (array_element of array_example) console.log(array_element);
 
+for (array_element in array_example) console.log(array_element);
+for (array_element in array_example) console.log(array_example[array_element]);
+
+for (key in person) console.log(person[key]);//console.log(key);
+
+for (key in person) {
+    typeof(person[key]) == 'function' ? console.log(person[key]()) : console.log(person[key]);
+}
+
+//for (key of person) console.log(person[key]);//console.log(key);
